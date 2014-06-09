@@ -372,6 +372,12 @@ i.service-icon {
 	margin-bottom:20px;
 }
 
+.image-team {
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100);
+}
+
 .facebook-link a:hover {
 	color: #3b5998;
 }
