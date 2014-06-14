@@ -34,17 +34,8 @@ p {
 	border:none;
 }
 
-.logo i {
-	color:#ffffff;
-	font-size:27px;
-	margin-right:7px;
-}
-
-.logo {
-	color:#ffffff !important;
-	text-transform:uppercase;
-	font-size:25px;
-	font-weight:500;
+.image-logo {
+	height: 45px;
 }
 
 .navbar-nav {
