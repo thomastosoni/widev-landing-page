@@ -373,9 +373,7 @@ i.service-icon {
 }
 
 .image-team {
-	-webkit-filter: grayscale(100%);
-	-moz-filter: grayscale(100%);
-	filter: grayscale(100);
+
 }
 
 .facebook-link a:hover {
