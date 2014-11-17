@@ -6,7 +6,7 @@
 /**/
 
 #toTop {
-    background: url(../images/buttons/up-arrow-circle-md.png);
+    background: url(../images/icons/arrow-up-grey.png);
     background-size: 50px 50px;
     display:none;
     text-decoration:none;
@@ -21,7 +21,7 @@
 }
 
 #toTopHover {
-    background:url(../images/buttons/up-grey-arrow-hi.png);
+    background:url(../images/icons/arrow-up.png);
     background-size: 50px 50px;
     width: 50px;
     height: 50px;

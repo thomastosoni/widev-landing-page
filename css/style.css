@@ -25,7 +25,8 @@ p {
 /* Header */
 
 .header {
-	padding-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 	z-index: 10000;
 }
 
@@ -103,7 +104,6 @@ p {
 
 .navbar-default .navbar-nav > li > a {
 	color: #444444;
-	padding: 10px 15px 18px;
 }
 
 .navbar-default .navbar-nav > li > a:hover {
@@ -298,8 +298,7 @@ i.service-icon {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width: 80%;
-    filter: grayscale(100%);
+    max-width: 30%;
 }
 
 .tab-pane {
