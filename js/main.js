@@ -1,22 +1,13 @@
-
 // Tooltips for Social Links
 $('.tooltip-social').tooltip({
 	selector: "a[data-toggle=tooltip]"
 });
 
-// Flexslider
-$(document).ready(function($) {
-	$('#main-slider').flexslider({
-		animation: "fade",
-		slideshowSpeed: 3500,
-		controlNav: false,
-		directionNav: false
-	});
-});
-
 // Owl Carousel
 $(document).ready(function($) {
-	$("#owl-example").owlCarousel();
+	$("#my-owl").owlCarousel({
+    center: true
+  });
 });
 
 // Custom Tab styles
@@ -50,9 +41,22 @@ $(document).ready(function($) {
 	});
 });
 
-// Prettyphoto
+// Fancybox
 $(document).ready(function() {
-	$("a[class^='prettyPhoto']").prettyPhoto({theme:'pp_default'});
+  $(".fancybox").fancybox({
+    openEffect	: 'none',
+    closeEffect	: 'none',
+    helpers: {
+      overlay: {
+        locked: false
+      },
+      thumbs : {
+        width: 50,
+        height: 50
+      }
+    }
+  });
+
 });
 
 // Google Maps
